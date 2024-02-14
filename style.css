@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ......hero-sectio................. */
+.hero {
+  padding: 0 4%;
+  background-color: #5d3fd3;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 90px;
+}
+.brand {
+  margin-left: 32px;
+  padding: 16px;
+}
+.link {
+  text-decoration: none;
+  font-size: 38px;
+  color: rgb(232, 232, 242);
+  font-weight: 700;
+}
+.icon {
+  margin: 10px 0 0 2px;
+  padding-top: 8px;
+  height: 32px;
+  width: 32px;
+}
+
+.grid-container {
+  margin-top: 20px;
+  padding: 0 4%;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 32px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.primary-heading {
+  margin-top: 18px;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+.p-info {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.hero-img {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.img-hero {
+  width: 90%;
+  height: 75vh;
+  border-radius: 20px;
+}
+.other-info {
+  margin-top: 28px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 48px;
+}
+.date,
+.time,
+.hours {
+  display: flex;
+  /* background: wheat; */
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #141313;
+}
+.dt,
+.ti,
+.hr {
+  padding-left: 4px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.icon-cal,
+.icon-tim,
+.icon-hr {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+
+.btn {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-register {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 16px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f8d22c;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-register:hover {
+  background-color: #ffcc66;
+}
+
+/* ....................about-container.............. */
+.about {
+  padding: 0 4%;
+  background-color: #8a9a5b;
+  height: 100vh;
+}
+.about-container {
+  display: flex;
+  padding: 0 4%;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-heading {
+  margin-top: 64px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.gs {
+  color: #ffff;
+}
+.abtt-info {
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.abt-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.img-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.abt-img {
+  width: 60%;
+  height: 50vh;
+  border: none;
+  border-radius: 10px;
+}
+.abt-info {
+  margin-top: 32px;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  background-color: rgb(185, 182, 182);
+  width: 80%;
+  height: 60vh;
+  padding: 12px;
+  border-radius: 10px;
+}
+.info {
+  font-size: 18px;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+}
+
+/* ...............................section-why.......... */
+.why {
+  padding: 0 4%;
+  height: 100vh;
+}
+.why-heading {
+  margin-top: 20px;
+  text-align: center;
+}
+.why-icons {
+  padding: 32px;
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.i-1,
+.i-2,
+.i-3,
+.i-4,
+.i-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 280px;
+  cursor: pointer;
+}
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5 {
+  width: 48px;
+  height: 48px;
+  padding: 16px;
+}
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.timer {
+  padding: 0 4%;
+  height: 100vh;
+  background-color: #5d3fd3;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+.timer-heading {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.timer-content {
+  display: flex;
+  gap: 32px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.dot {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: #fff;
+}
+.hour-data,
+.min-data,
+.sec-data {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 180px;
+  padding: 4px;
+  height: 100px;
+  border: 1px solid #fff;
+  color: #fff;
+  /* background-color: aqua; */
+}
+
+/* .......call-to-action.................... */
+.cta {
+  padding: 0 4%;
+  height: 50vh;
+  background-color: #5d3fd3;
+}
+.cta-content {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 32px;
+  border: 1px solid #fff;
+}
+.cta-info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.heading-4 {
+  font-family: sans-serif;
+  font-size: 22px;
+  color: #fff;
+}
+.cta-oinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #fff;
+}
+.cta-mg {
+  margin-top: 20px;
+}
+.cta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.price-p {
+  font-size: 32px;
+  color: #fff;
+}
+.sp-p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.form {
+  display: none;
+}
+
+.slider-form {
+  position: fixed;
+  bottom: -300px; /* Initial position, set to hide */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: bottom 0.3s ease;
+  z-index: 1000; /* Ensure it's above other content */
+}
